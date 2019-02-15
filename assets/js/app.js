@@ -282,283 +282,283 @@ pointsApp.controller('pointsController', function countryListController($scope, 
             $scope.flags = [
                 {
                     name: 'ANGOLA',
-                    code: 'ANGOLA.gif'
+                    code: 'ANGOLA.GIF'
                 },
                 {
                     name: 'BELARUS',
-                    code: 'BELARUS.gif'
+                    code: 'BELARUS.GIF'
                 },
                 {
                     name: 'BHUTAN',
-                    code: 'BHUTAN.gif'
+                    code: 'BHUTAN.GIF'
                 },
                 {
                     name: 'IRAN',
-                    code: 'IRAN.gif'
+                    code: 'IRAN.GIF'
                 },
                 {
                     name: 'RUSSIA',
-                    code: 'RUSSIA.gif'
+                    code: 'RUSSIA.GIF'
                 },
                 {
                     name: 'SOMALIA',
-                    code: 'SOMALIA.gif'
+                    code: 'SOMALIA.GIF'
                 },
                 {
                     name: 'ISRAEL',
-                    code: 'ISRAEL.gif'
+                    code: 'ISRAEL.GIF'
                 },
                 {
                     name: 'ARMENIA',
-                    code: 'ARMENIA.gif'
+                    code: 'ARMENIA.GIF'
                 },
                 {
                     name: 'BAHRAIN',
-                    code: 'BAHRAIN.gif'
+                    code: 'BAHRAIN.GIF'
                 },
                 {
                     name: 'CENTRAL AFRICAN REPUBLIC',
-                    code: 'CENTRAL_AFRICAN_REPUBLIC.gif'
+                    code: 'CENTRAL_AFRICAN_REPUBLIC.GIF'
                 },
                 {
                     name: 'CYPRUS',
-                    code: 'CYPRUS.gif'
+                    code: 'CYPRUS.GIF'
                 },
                 {
                     name: 'OMAN',
-                    code: 'OMAN.gif'
+                    code: 'OMAN.GIF'
                 },
                 {
                     name: 'TUNISIA',
-                    code: 'TUNISIA.gif'
+                    code: 'TUNISIA.GIF'
                 },
                 {
                     name: 'USA',
-                    code: 'USA.gif'
+                    code: 'USA.GIF'
                 },
                 {
                     name: 'DRC',
-                    code: 'DRC.gif'
+                    code: 'DRC.GIF'
                 },
                 {
                     name: 'ERITREA',
-                    code: 'ERITREA.gif'
+                    code: 'ERITREA.GIF'
                 },
                 {
                     name: 'GERMANY',
-                    code: 'GERMANY.gif'
+                    code: 'GERMANY.GIF'
                 },
                 {
                     name: 'LEBANON',
-                    code: 'LEBANON.gif'
+                    code: 'LEBANON.GIF'
                 },
                 {
                     name: 'MONGOLIA',
-                    code: 'MONGOLIA.gif'
+                    code: 'MONGOLIA.GIF'
                 },
                 {
                     name: 'TAJIKISTAN',
-                    code: 'TAJIKISTAN.gif'
+                    code: 'TAJIKISTAN.GIF'
                 },
                 {
                     name: 'GREENLAND',
-                    code: 'GREENLAND.gif'
+                    code: 'GREENLAND.GIF'
                 },
                 {
                     name: 'ICELAND',
-                    code: 'ICELAND.gif'
+                    code: 'ICELAND.GIF'
                 },
                 {
                     name: 'YEMEN',
-                    code: 'YEMEN.gif'
+                    code: 'YEMEN.GIF'
                 },
                 {
                     name: 'COLOMBIA',
-                    code: 'COLOMBIA.gif'
+                    code: 'COLOMBIA.GIF'
                 },
                 {
                     name: 'EGYPT',
-                    code: 'EGYPT.gif'
+                    code: 'EGYPT.GIF'
                 },
                 {
                     name: 'GEORGIA',
-                    code: 'GEORGIA.gif'
+                    code: 'GEORGIA.GIF'
                 },
                 {
                     name: 'JAPAN',
-                    code: 'JAPAN.gif'
+                    code: 'JAPAN.GIF'
                 },
                 {
                     name: 'MYANMAR',
-                    code: 'MYANMAR.gif'
+                    code: 'MYANMAR.GIF'
                 },
                 {
                     name: 'SAUDI ARABIA',
-                    code: 'SAUDI_ARABIA.gif'
+                    code: 'SAUDI_ARABIA.GIF'
                 },
                 {
                     name: 'ESTONIA',
-                    code: 'ESTONIA.gif'
+                    code: 'ESTONIA.GIF'
                 },
                 {
                     name: 'INDIA',
-                    code: 'INDIA.gif'
+                    code: 'INDIA.GIF'
                 },
                 {
                     name: 'MALI',
-                    code: 'MALI.gif'
+                    code: 'MALI.GIF'
                 },
                 {
                     name: 'MEXICO',
-                    code: 'MEXICO.gif'
+                    code: 'MEXICO.GIF'
                 },
                 {
                     name: 'NORTH KOREA',
-                    code: 'NORTH_KOREA.gif'
+                    code: 'NORTH_KOREA.GIF'
                 },
                 {
                     name: 'UK',
-                    code: 'UK.gif'
+                    code: 'UK.GIF'
                 },
                 {
                     name: 'UKRAINE',
-                    code: 'UKRAINE.gif'
+                    code: 'UKRAINE.GIF'
                 },
                 {
                     name: 'FRANCE',
-                    code: 'FRANCE.gif'
+                    code: 'FRANCE.GIF'
                 },
                 {
                     name: 'IRAQ',
-                    code: 'IRAQ.gif'
+                    code: 'IRAQ.GIF'
                 },
                 {
                     name: 'KYRGYZSTAN',
-                    code: 'KYRGYZSTAN.gif'
+                    code: 'KYRGYZSTAN.GIF'
                 },
                 {
                     name: 'LIBYA',
-                    code: 'LIBYA.gif'
+                    code: 'LIBYA.GIF'
                 },
                 {
                     name: 'SYRIA',
-                    code: 'SYRIA.gif'
+                    code: 'SYRIA.GIF'
                 },
                 {
                     name: 'UZBEKISTAN',
-                    code: 'UZBEKISTAN.gif'
+                    code: 'UZBEKISTAN.GIF'
                 },
                 {
                     name: 'AFGHANISTAN',
-                    code: 'AFGHANISTAN.gif'
+                    code: 'AFGHANISTAN.GIF'
                 },
                 {
                     name: 'BANGLADESH',
-                    code: 'BANGLADESH.gif'
+                    code: 'BANGLADESH.GIF'
                 },
                 {
                     name: 'JORDAN',
-                    code: 'JORDAN.gif'
+                    code: 'JORDAN.GIF'
                 },
                 {
                     name: 'NIGERIA',
-                    code: 'NIGERIA.gif'
+                    code: 'NIGERIA.GIF'
                 },
                 {
                     name: 'CHINA',
-                    code: 'CHINA.gif'
+                    code: 'CHINA.GIF'
                 },
                 {
                     name: 'PAKISTAN',
-                    code: 'PAKISTAN.gif'
+                    code: 'PAKISTAN.GIF'
                 },
                 {
                     name: 'PALESTINE',
-                    code: 'PALESTINE.gif'
+                    code: 'PALESTINE.GIF'
                 },
                 {
                     name: 'SOUTH KOREA',
-                    code: 'SOUTH_KOREA.gif'
+                    code: 'SOUTH_KOREA.GIF'
                 },
                 {
                     name: 'VENEZUELA',
-                    code: 'VENEZUELA.gif'
+                    code: 'VENEZUELA.GIF'
                 },
                 {
                     name: 'AZERBAIJAN',
-                    code: 'AZERBAIJAN.gif'
+                    code: 'AZERBAIJAN.GIF'
                 },
                 {
                     name: 'ETHIOPIA',
-                    code: 'ETHIOPIA.gif'
+                    code: 'ETHIOPIA.GIF'
                 },
                 {
                     name: 'KUWAIT',
-                    code: 'KUWAIT.gif'
+                    code: 'KUWAIT.GIF'
                 },
                 {
                     name: 'LATVIA',
-                    code: 'LATVIA.gif'
+                    code: 'LATVIA.GIF'
                 },
                 {
                     name: 'LITHUANIA',
-                    code: 'LITHUANIA.gif'
+                    code: 'LITHUANIA.GIF'
                 },
                 {
                     name: 'NORWAY',
-                    code: 'NORWAY.gif'
+                    code: 'NORWAY.GIF'
                 },
                 {
                     name: 'SPAIN',
-                    code: 'SPAIN.gif'
+                    code: 'SPAIN.GIF'
                 },
                 {
                     name: 'FINLAND',
-                    code: 'FINLAND.gif'
+                    code: 'FINLAND.GIF'
                 },
                 {
                     name: 'KOSOVO',
-                    code: 'KOSOVO.gif'
+                    code: 'KOSOVO.GIF'
                 },
                 {
                     name: 'KAZAKHSTAN',
-                    code: 'KAZAKHSTAN.gif'
+                    code: 'KAZAKHSTAN.GIF'
                 },
                 {
                     name: 'HAITI',
-                    code: 'HAITI.gif'
+                    code: 'HAITI.GIF'
                 },
                 {
                     name: 'NETHERLANDS',
-                    code: 'NETHERLANDS.gif'
+                    code: 'NETHERLANDS.GIF'
                 },
                 {
                     name: 'KENYA',
-                    code: 'KENYA.gif'
+                    code: 'KENYA.GIF'
                 },
                 {
                     name: 'MOLDOVA',
-                    code: 'MOLDOVA.gif'
+                    code: 'MOLDOVA.GIF'
                 },
                 {
                     name: 'QATAR',
-                    code: 'QATAR.gif'
+                    code: 'QATAR.GIF'
                 },
                 {
                     name: 'SUDAN',
-                    code: 'SUDAN.gif'
+                    code: 'SUDAN.GIF'
                 },
                 {
                     name: 'TURKEY',
-                    code: 'TURKEY.gif'
+                    code: 'TURKEY.GIF'
                 },
                 {
                     name: 'TURKMENISTAN',
-                    code: 'TURKMENISTAN.gif'
+                    code: 'TURKMENISTAN.GIF'
                 },
                 {
                     name: 'UAE',
-                    code: 'UAE.gif'
+                    code: 'UAE.GIF'
                 }
             ];
             break;
@@ -567,203 +567,203 @@ pointsApp.controller('pointsController', function countryListController($scope, 
             $scope.flags = [
                 {
                     name: 'CYPRUS',
-                    code: 'CYPRUS.gif'
+                    code: 'CYPRUS.GIF'
                 },
                 {
                     name: 'IRAQ',
-                    code: 'IRAQ.gif'
+                    code: 'IRAQ.GIF'
                 },
                 {
                     name: 'SPAIN',
-                    code: 'SPAIN.gif'
+                    code: 'SPAIN.GIF'
                 },
                 {
                     name: 'GERMANY',
-                    code: 'GERMANY.gif'
+                    code: 'GERMANY.GIF'
                 },
                 {
                     name: 'RUSSIA',
-                    code: 'RUSSIA.gif'
+                    code: 'RUSSIA.GIF'
                 },
                 {
                     name: 'MONGOLIA',
-                    code: 'MONGOLIA.gif'
+                    code: 'MONGOLIA.GIF'
                 },
                 {
                     name: 'MYANMAR',
-                    code: 'MYANMAR.gif'
+                    code: 'MYANMAR.GIF'
                 },
                 {
                     name: 'USA',
-                    code: 'USA.gif'
+                    code: 'USA.GIF'
                 },
                 {
                     name: 'IRAN',
-                    code: 'IRAN.gif'
+                    code: 'IRAN.GIF'
                 },
                 {
                     name: 'CHINA',
-                    code: 'CHINA.gif'
+                    code: 'CHINA.GIF'
                 },
                 {
                     name: 'INDIA',
-                    code: 'INDIA.gif'
+                    code: 'INDIA.GIF'
                 },
                 {
                     name: 'KUWAIT',
-                    code: 'KUWAIT.gif'
+                    code: 'KUWAIT.GIF'
                 },
                 {
                     name: 'OMAN',
-                    code: 'OMAN.gif'
+                    code: 'OMAN.GIF'
                 },
                 {
                     name: 'BANGLADESH',
-                    code: 'BANGLADESH.gif'
+                    code: 'BANGLADESH.GIF'
                 },
                 {
                     name: 'MALI',
-                    code: 'MALI.gif'
+                    code: 'MALI.GIF'
                 },
                 {
                     name: 'LITHUANIA',
-                    code: 'LITHUANIA.gif'
+                    code: 'LITHUANIA.GIF'
                 },
                 {
                     name: 'ICELAND',
-                    code: 'ICELAND.gif'
+                    code: 'ICELAND.GIF'
                 },
                 {
                     name: 'UZBEKISTAN',
-                    code: 'UZBEKISTAN.gif'
+                    code: 'UZBEKISTAN.GIF'
                 },
                 {
                     name: 'SOMALIA',
-                    code: 'SOMALIA.gif'
+                    code: 'SOMALIA.GIF'
                 },
                 {
                     name: 'EGYPT',
-                    code: 'EGYPT.gif'
+                    code: 'EGYPT.GIF'
                 },
                 {
                     name: 'AFGHANISTAN',
-                    code: 'AFGHANISTAN.gif'
+                    code: 'AFGHANISTAN.GIF'
                 },
                 {
                     name: 'LEBANON',
-                    code: 'LEBANON.gif'
+                    code: 'LEBANON.GIF'
                 },
                 {
                     name: 'SYRIA',
-                    code: 'SYRIA.gif'
+                    code: 'SYRIA.GIF'
                 },
                 {
                     name: 'TURKEY',
-                    code: 'TURKEY.gif'
+                    code: 'TURKEY.GIF'
                 },
                 {
                     name: 'LIBYA',
-                    code: 'LIBYA.gif'
+                    code: 'LIBYA.GIF'
                 },
                 {
                     name: 'PALESTINE',
-                    code: 'PALESTINE.gif'
+                    code: 'PALESTINE.GIF'
                 },
                 {
                     name: 'VENEZUELA',
-                    code: 'VENEZUELA.gif'
+                    code: 'VENEZUELA.GIF'
                 },
                 {
                     name: 'YEMEN',
-                    code: 'YEMEN.gif'
+                    code: 'YEMEN.GIF'
                 },
                 {
                     name: 'ISRAEL',
-                    code: 'ISRAEL.gif'
+                    code: 'ISRAEL.GIF'
                 },
                 {
                     name: 'BELARUS',
-                    code: 'BELARUS.gif'
+                    code: 'BELARUS.GIF'
                 },
                 {
                     name: 'KENYA',
-                    code: 'KENYA.gif'
+                    code: 'KENYA.GIF'
                 },
                 {
                     name: 'QATAR',
-                    code: 'QATAR.gif'
+                    code: 'QATAR.GIF'
                 },
                 {
                     name: 'SAUDI ARABIA',
-                    code: 'SAUDI_ARABIA.gif'
+                    code: 'SAUDI_ARABIA.GIF'
                 },
                 {
                     name: 'FRANCE',
-                    code: 'FRANCE.gif'
+                    code: 'FRANCE.GIF'
                 },
                 {
                     name: 'NORTH KOREA',
-                    code: 'NORTH_KOREA.gif'
+                    code: 'NORTH_KOREA.GIF'
                 },
                 {
                     name: 'KOSOVO',
-                    code: 'KOSOVO.gif'
+                    code: 'KOSOVO.GIF'
                 },
                 {
                     name: 'UAE',
-                    code: 'UAE.gif'
+                    code: 'UAE.GIF'
                 },
                 {
                     name: 'CAR',
-                    code: 'CAR.gif'
+                    code: 'CAR.GIF'
                 },
                 {
                     name: 'TUNISIA',
-                    code: 'TUNISIA.gif'
+                    code: 'TUNISIA.GIF'
                 },
                 {
                     name: 'UK',
-                    code: 'UK.gif'
+                    code: 'UK.GIF'
                 },
                 {
                     name: 'COLOMBIA',
-                    code: 'COLOMBIA.gif'
+                    code: 'COLOMBIA.GIF'
                 },
                 {
                     name: 'FINLAND',
-                    code: 'FINLAND.gif'
+                    code: 'FINLAND.GIF'
                 },
                 {
                     name: 'DENMARK',
-                    code: 'DENMARK.gif'
+                    code: 'DENMARK.GIF'
                 },
                 {
                     name: 'DRC',
-                    code: 'DRC.gif'
+                    code: 'DRC.GIF'
                 },
                 {
                     name: 'NETHERLANDS',
-                    code: 'NETHERLANDS.gif'
+                    code: 'NETHERLANDS.GIF'
                 },
                 {
                     name: 'ANGOLA',
-                    code: 'ANGOLA.gif'
+                    code: 'ANGOLA.GIF'
                 },
                 {
                     name: 'ESTONIA',
-                    code: 'ESTONIA.gif'
+                    code: 'ESTONIA.GIF'
                 },
                 {
                     name: 'SOUTH KOREA',
-                    code: 'SOUTH_KOREA.gif'
+                    code: 'SOUTH_KOREA.GIF'
                 },
                 {
                     name: 'BAHRAIN',
-                    code: 'BAHRAIN.gif'
+                    code: 'BAHRAIN.GIF'
                 },
                 {
                     name: 'JORDAN',
-                    code: 'JORDAN.gif'
+                    code: 'JORDAN.GIF'
                 }
             ];
             break;
@@ -772,63 +772,63 @@ pointsApp.controller('pointsController', function countryListController($scope, 
             $scope.flags = [
                 {
                     name: 'USA',
-                    code: 'USA.gif'
+                    code: 'USA.GIF'
                 },
                 {
                     name: 'OMAN',
-                    code: 'OMAN.gif'
+                    code: 'OMAN.GIF'
                 },
                 {
                     name: 'ISRAEL',
-                    code: 'ISRAEL.gif'
+                    code: 'ISRAEL.GIF'
                 },
                 {
                     name: 'MONGOLIA',
-                    code: 'mongolia.gif'
+                    code: 'MONGOLIA.GIF'
                 },
                 {
                     name: 'LEBANON',
-                    code: 'LEBANON.gif'
+                    code: 'LEBANON.GIF'
                 },
                 {
                     name: 'KIRGHIZ SSR',
-                    code: 'Kirghis.png'
+                    code: 'KIRGHIS.GIF'
                 },
                 {
                     name: 'VENEZUELA',
-                    code: 'VENEZUELA.gif'
+                    code: 'VENEZUELA.GIF'
                 },
                 {
                     name: 'ESTONIAN SSR',
-                    code: 'estonian.png'
+                    code: 'ESTONIAN.PNG'
                 },
                 {
                     name: 'IRAQ',
-                    code: 'IRAQ.gif'
+                    code: 'IRAQ.GIF'
                 },
                 {
                     name: 'MYANMAR',
-                    code: 'MYANMAR.gif'
+                    code: 'MYANMAR.GIF'
                 },
                 {
                     name: 'JORDAN',
-                    code: 'JORDAN.gif'
+                    code: 'JORDAN.GIF'
                 },
                 {
                     name: 'MOLDAVIAN SSR',
-                    code: 'MOLDAVIAN.png'
+                    code: 'MOLDAVIAN.PNG'
                 },
                 {
                     name: 'LITHUANIAN SSR',
-                    code: 'LITHUANIAN.png'
+                    code: 'LITHUANIAN.PNG'
                 },
                 {
                     name: 'UK',
-                    code: 'UK.gif'
+                    code: 'UK.GIF'
                 },
                 {
                     name: 'PALESTINE',
-                    code: 'PALESTINE.gif'
+                    code: 'PALESTINE.GIF'
                 },
                 {
                     name: 'AZERBAIJAN SSR',
@@ -836,227 +836,227 @@ pointsApp.controller('pointsController', function countryListController($scope, 
                 },
                 {
                     name: 'AFGHANISTAN',
-                    code: 'AFGHANISTAN.gif'
+                    code: 'AFGHANISTAN.GIF'
                 },
                 {
                     name: 'ERITREA',
-                    code: 'ERITREA.png'
+                    code: 'ERITREA.PNG'
                 },
                 {
                     name: 'MALI',
-                    code: 'MALI.gif'
+                    code: 'MALI.GIF'
                 },
                 {
                     name: 'ZAIRE',
-                    code: 'DRC.gif'
+                    code: 'DRC.GIF'
                 },
                 {
                     name: 'UKRAINIAN SSR',
-                    code: 'UKRAINIAN.png'
+                    code: 'UKRAINIAN.PNG'
                 },
                 {
                     name: 'FINLAND',
-                    code: 'FINLAND.gif'
+                    code: 'FINLAND.GIF'
                 },
                 {
                     name: 'ICELAND',
-                    code: 'ICELAND.gif'
+                    code: 'ICELAND.GIF'
                 },
                 {
                     name: 'NETHERLANDS',
-                    code: 'NETHERLANDS.gif'
+                    code: 'NETHERLANDS.GIF'
                 },
                 {
                     name: 'MEXICO',
-                    code: 'mexico.gif'
+                    code: 'mexico.GIF'
                 },
                 {
                     name: 'SUDAN',
-                    code: 'sudan.gif'
+                    code: 'SUDAN.GIF'
                 },
                 {
                     name: 'CAR',
-                    code: 'car.gif'
+                    code: 'CAR.GIF'
                 },
                 {
                     name: 'LATVIAN SSR',
-                    code: 'latvian.png'
+                    code: 'LATVIAN.PNG'
                 },
                 {
                     name: 'CHINA',
-                    code: 'CHINA.gif'
+                    code: 'CHINA.GIF'
                 },
                 {
                     name: 'EGYPT',
-                    code: 'EGYPT.gif'
+                    code: 'EGYPT.GIF'
                 },
                 {
                     name: 'GEORGIAN SSR',
-                    code: 'GEORGIAN.png'
+                    code: 'GEORGIAN.PNG'
                 },
                 {
                     name: 'JAPAN',
-                    code: 'japan.gif'
+                    code: 'JAPAN.GIF'
                 },
                 {
                     name: 'BYELORUSSIAN SSR',
-                    code: 'BYELORUSSIAN.png'
+                    code: 'BYELORUSSIAN.PNG'
                 },
                 {
                     name: 'TURKMEN SSR',
-                    code: 'turkmen.png'
+                    code: 'turkmen.PNG'
                 },
                 {
                     name: 'TURKEY',
-                    code: 'TURKEY.gif'
+                    code: 'TURKEY.GIF'
                 },
                 {
                     name: 'BANGLADESH',
-                    code: 'BANGLADESH.gif'
+                    code: 'BANGLADESH.GIF'
                 },
                 {
                     name: 'UZBEK SSR',
-                    code: 'uzbek.png'
+                    code: 'UZBEK.PNG'
                 },
                 {
                     name: 'INDIA',
-                    code: 'INDIA.gif'
+                    code: 'INDIA.GIF'
                 },
                 {
                     name: 'UAE',
-                    code: 'UAE.gif'
+                    code: 'UAE.GIF'
                 },
                 {
                     name: 'IRAN',
-                    code: 'IRAN.gif'
+                    code: 'IRAN.GIF'
                 },
                 {
                     name: 'NIGERIA',
-                    code: 'nigeria.gif'
+                    code: 'nigeria.GIF'
                 },
                 {
                     name: 'YEMEN ARAB REPUBLIC',
-                    code: 'yemen.gif'
+                    code: 'YEMEN.GIF'
                 },
                 {
                     name: 'FRANCE',
-                    code: 'france.gif'
+                    code: 'FRANCE.GIF'
                 },
                 {
                     name: 'SAUDI ARABIA',
-                    code: 'SAUDI_ARABIA.gif'
+                    code: 'SAUDI_ARABIA.GIF'
                 },
                 {
                     name: 'LIBYA',
-                    code: 'libya.gif'
+                    code: 'LIBYA.GIF'
                 },
                 {
                     name: 'ETHIOPIA',
-                    code: 'ethiopia.gif'
+                    code: 'ETHIOPIA.GIF'
                 },
                 {
                     name: 'SPAIN',
-                    code: 'spain.gif'
+                    code: 'SPAIN.GIF'
                 },
                 {
                     name: 'TAJIK SSR',
-                    code: 'TAJIK.png'
+                    code: 'TAJIK.PNG'
                 },
                 {
                     name: 'KENYA',
-                    code: 'kenya.gif'
+                    code: 'KENYA.GIF'
                 },
                 {
                     name: 'PAKISTAN',
-                    code: 'pakistan.gif'
+                    code: 'PAKISTAN.GIF'
                 },
                 {
                     name: 'RUSSIAN SFSR',
-                    code: 'RUSSIAN.png'
+                    code: 'RUSSIAN.PNG'
                 },
                 {
                     name: 'NORTH KOREA',
-                    code: 'NORTH_KOREA.gif'
+                    code: 'NORTH_KOREA.GIF'
                 },
                 {
                     name: 'QATAR',
-                    code: 'qatar.gif'
+                    code: 'QATAR.GIF'
                 },
                 {
                     name: 'KAZAKH SSR',
-                    code: 'KAZAKH.png'
+                    code: 'KAZAKH.PNG'
                 },
                 {
                     name: 'CYPRUS',
-                    code: 'CYPRUS.gif'
+                    code: 'CYPRUS.GIF'
                 },
                 {
                     name: 'GREENLAND',
-                    code: 'GREENLAND.gif'
+                    code: 'GREENLAND.GIF'
                 },
                 {
                     name: 'COLOMBIA',
-                    code: 'COLOMBIA.gif'
+                    code: 'COLOMBIA.GIF'
                 },
                 {
                     name: 'ANGOLA',
-                    code: 'ANGOLA.gif'
+                    code: 'ANGOLA.GIF'
                 },
                 {
                     name: 'BAHRAIN',
-                    code: 'BAHRAIN.gif'
+                    code: 'BAHRAIN.GIF'
                 },
                 {
                     name: 'TANZANIA',
-                    code: 'TANZANIA.gif'
+                    code: 'TANZANIA.GIF'
                 },
                 {
                     name: 'TUNISIA',
-                    code: 'TUNISIA.gif'
+                    code: 'TUNISIA.GIF'
                 },
                 {
                     name: 'KOSOVO',
-                    code: 'KOSOVO.gif'
+                    code: 'KOSOVO.GIF'
                 },
                 {
                     name: 'HAITI',
-                    code: 'HAITI.gif'
+                    code: 'HAITI.GIF'
                 },
                 {
                     name: 'YUGOSLAVIA',
-                    code: 'YUGOSLAVIA.jpg'
+                    code: 'YUGOSLAVIA.JPG'
                 },
                 {
                     name: 'SYRIA',
-                    code: 'SYRIA.gif'
+                    code: 'SYRIA.GIF'
                 },
                 {
                     name: 'BHUTAN',
-                    code: 'BHUTAN.gif'
+                    code: 'BHUTAN.GIF'
                 },
                 {
                     name: 'SOMALIA',
-                    code: 'SOMALIA.gif'
+                    code: 'SOMALIA.GIF'
                 },
                 {
                     name: 'SOUTH KOREA',
-                    code: 'SOUTH_KOREA.gif'
+                    code: 'SOUTH_KOREA.GIF'
                 },
                 {
                     name: 'KUWAIT',
-                    code: 'KUWAIT.gif'
+                    code: 'KUWAIT.GIF'
                 },
                 {
                     name: 'ARMENIAN SSR',
-                    code: 'ARMENIAN.png'
+                    code: 'ARMENIAN.PNG'
                 },
                 {
                     name: 'NORWAY',
-                    code: 'norway.gif'
+                    code: 'norway.GIF'
                 },
                 {
                     name: 'SLOVAKIA',
-                    code: 'slovakia.gif'
+                    code: 'SLOVAKIA.GIF'
                 }
             ];
             break;
@@ -1131,143 +1131,143 @@ pointsApp.controller('pointsController', function countryListController($scope, 
             $scope.flags = [
                 {
                     name: 'MEXICO',
-                    code: 'MEXico.gif'
+                    code: 'MEXICO.GIF'
                 },
                 {
                     name: 'SOUTH KOREA',
-                    code: 'South_korea.gif'
+                    code: 'SOUTH_KOREA.GIF'
                 },
                 {
                     name: 'AFRICAN UNION',
-                    code: 'African_Union.png'
+                    code: 'AFRICAN_UNION.PNG'
                 },
                 {
                     name: 'EU',
-                    code: 'EU.png'
+                    code: 'EU.PNG'
                 },
                 {
                     name: 'WORLD BANK',
-                    code: 'world_bank.jpg'
+                    code: 'WORLD_BANK.JPG'
                 },
                 {
                     name: 'AUSTRALIA',
-                    code: 'australia.gif'
+                    code: 'AUSTRALIA.GIF'
                 },
                 {
                     name: 'IMF',
-                    code: 'IMF.png'
+                    code: 'IMF.PNG'
                 },
                 {
                     name: 'TESLA',
-                    code: 'TESLA.png'
+                    code: 'TESLA.PNG'
                 },
                 {
                     name: 'RED CROSS',
-                    code: 'redcross.png'
+                    code: 'REDCROSS.PNG'
                 },
                 {
                     name: 'FRANCE',
-                    code: 'france.gif'
+                    code: 'FRANCE.GIF'
                 },
                 {
                     name: 'ARGENTINA',
-                    code: 'argentina.gif'
+                    code: 'ARGENTINA.GIF'
                 },
                 {
                     name: 'INDIA',
-                    code: 'india.gif'
+                    code: 'INDIA.GIF'
                 },
                 {
                     name: 'GERMANY',
-                    code: 'germany.gif'
+                    code: 'GERMANY.GIF'
                 },
                 {
                     name: 'INDONESIA',
-                    code: 'indonesia.gif'
+                    code: 'INDONESIA.GIF'
                 },
                 {
                     name: 'BRAZIL',
-                    code: 'brazil.gif'
+                    code: 'BRAZIL.GIF'
                 },
                 {
                     name: 'JAPAN',
-                    code: 'japan.gif'
+                    code: 'JAPAN.GIF'
                 },
                 {
                     name: 'EXXON MOBIL',
-                    code: 'exxon_mobil.jpg'
+                    code: 'EXXO_MOBIL.JPG'
                 },
                 {
                     name: 'OECD',
-                    code: 'OECD.jpg'
+                    code: 'OECD.JPG'
                 },
                 {
                     name: 'USA',
-                    code: 'USA.gif'
+                    code: 'USA.GIF'
                 },
                 {
                     name: 'WTO',
-                    code: 'WTO.gif'
+                    code: 'WTO.GIF'
                 },
                 {
                     name: 'UK',
-                    code: 'UK.gif'
+                    code: 'UK.GIF'
                 },
                 {
                     name: 'NIKE',
-                    code: 'NIKE.jpg'
+                    code: 'NIKE.JPG'
                 },
                 {
                     name: 'CHINA',
-                    code: 'China.gif'
+                    code: 'CHINA.GIF'
                 },
                 {
                     name: 'AIR BUS',
-                    code: 'airbus.png'
+                    code: 'AIRBUS.PNG'
                 },
                 {
                     name: 'SOUTH AFRICA',
-                    code: 'South_africa.gif'
+                    code: 'SOUTH_AFRICA.GIF'
                 },
                 {
                     name: 'ALPHABET',
-                    code: 'ALPHABET.jpg'
+                    code: 'ALPHABET.JPG'
                 },
                 {
                     name: 'RUSSIA',
-                    code: 'russia.gif'
+                    code: 'RUSSIA.GIF'
                 },
                 {
                     name: 'ITALY',
-                    code: 'italy.gif'
+                    code: 'ITALY.GIF'
                 },
                 {
                     name: 'SAUDI ARABIA',
-                    code: 'saudi_arabia.gif'
+                    code: 'SAUDI_ARABIA.GIF'
                 },
                 {
                     name: 'CANADA',
-                    code: 'canada.gif'
+                    code: 'CANADA.GIF'
                 },
                 {
                     name: 'SPAIN',
-                    code: 'spain.gif'
+                    code: 'SPAIN.GIF'
                 },
                 {
                     name: 'AMAZON',
-                    code: 'amazon.png'
+                    code: 'AMAZON.PNG'
                 },
                 {
                     name: 'TURKEY',
-                    code: 'turkey.gif'
+                    code: 'TURKEY.GIF'
                 },
                 {
                     name: 'ASEAN',
-                    code: 'asean.png'
+                    code: 'ASEAN.PNG'
                 },
                 {
                     name: 'ILO',
-                    code: 'ILO.png'
+                    code: 'ILO.PNG'
                 }
             ];
             break;
@@ -1276,63 +1276,63 @@ pointsApp.controller('pointsController', function countryListController($scope, 
             $scope.flags = [
                 {
                     name: 'RUSSIA',
-                    code: 'RUSSIA.gif'
+                    code: 'RUSSIA.GIF'
                 },
                 {
                     name: 'UK',
-                    code: 'UK.gif'
+                    code: 'UK.GIF'
                 },
                 {
                     name: 'CHINA',
-                    code: 'CHINA.gif'
+                    code: 'CHINA.GIF'
                 },
                 {
                     name: 'TURKEY',
-                    code: 'TURKEY.gif'
+                    code: 'TURKEY.GIF'
                 },
                 {
                     name: 'USA',
-                    code: 'USA.gif'
+                    code: 'USA.GIF'
                 },
                 {
                     name: 'SYRIA',
-                    code: 'SYRIA.gif'
+                    code: 'SYRIA.GIF'
                 },
                 {
                     name: 'FRANCE',
-                    code: 'FRANCE.gif'
+                    code: 'FRANCE.GIF'
                 },
                 {
                     name: 'GERMANY',
-                    code: 'GERMANY.gif'
+                    code: 'GERMANY.GIF'
                 },
                 {
                     name: 'CAR',
-                    code: 'CAR.gif'
+                    code: 'CAR.GIF'
                 },
                 {
                     name: 'PHILIPPINES',
-                    code: 'PHILIPPINES.gif'
+                    code: 'PHILIPPINES.GIF'
                 },
                 {
                     name: 'TAIWAN',
-                    code: 'TAIWAN.png'
+                    code: 'TAIWAN.PNG'
                 },
                 {
                     name: 'IRAN',
-                    code: 'IRAN.gif'
+                    code: 'IRAN.GIF'
                 },
                 {
                     name: 'LIBYA',
-                    code: 'LIBYA.gif'
+                    code: 'LIBYA.GIF'
                 },
                 {
                     name: 'UKRAINE',
-                    code: 'UKRAINE.gif'
+                    code: 'UKRAINE.GIF'
                 },
                 {
                     name: 'IRAQ',
-                    code: 'IRAQ.gif'
+                    code: 'IRAQ.GIF'
                 }
             ];
             break;
