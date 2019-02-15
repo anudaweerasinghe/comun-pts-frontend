@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="background: #e6e6e1">
+    <meta charset="UTF-8">
+    <title>Points System|COMUN XXV</title>
+
+
+    <h1 style="font-family: NexaRegular">COMUN XXV POINTS SYSTEM</h1>
+    <h2 style="font-family: Nexa-Light; text-align: center">Admin Portal</h2>
+
+    <br><br><br><br>
+
+</head>
+
+
+<body>
+<center>
+    <container style="padding-right: 1%">
+        <button style="font-family: Abel; font-size: 18pt" ng-click="ga3()">GA3</button>
+    </container>
+    <container style="padding-right: 1%">
+        <button style="font-family: Abel; font-size: 18pt" ng-click="ga4()">GA4</button>
+    </container>
+    <container style="padding-right: 1%">
+        <button style="font-family: Abel; font-size: 18pt" ng-click="unadc()">HGA1</button>
+    </container>
+    <container style="padding-right: 1%">
+        <button style="font-family: Abel; font-size: 18pt" ng-click="icj()">PC</button>
+    </container>
+    <container style="padding-right: 1%">
+        <button style="font-family: Abel; font-size: 18pt" ng-click="fecosoc()">G20</button>
+    </container>
+    <button style="font-family: Abel; font-size: 18pt" ng-click="fsc()">SC</button>
+</center>
+<br>
+<div align="right">
+    <button style="font-size: large;" ng-click="logout()">Logout</button>
+</div>
+<br>
+<div ng-hide="table">
+    <p style="font-size: 13pt">Search by Country:</p>
+    <input style="font-size: large" type="text" ng-model="search.country">
+</div>
+
+<br><br><br>
+<h3 style="font-family: Nexa-Light; text-align: center">{{title}}</h3>
+<br><br><br>
+<table ng-hide="table">
+
+    <tr>
+        <th>Country</th>
+        <th>R2R Tally</th>
+        <th>R2R points</th>
+        <th>POI Tally</th>
+        <th>POI points</th>
+        <th>Speaker's List Tally</th>
+        <th>Speaker's List points</th>
+        <th>Statement Tally</th>
+        <th>Statement points</th>
+        <th>Mod Caucus Tally</th>
+        <th>Mod Caucus points</th>
+        <th>Mod Caucus Speech Tally</th>
+        <th>Mod Caucus Speech points</th>
+        <th>Reso Speech Tally</th>
+        <th>Reso Speech points</th>
+        <th>Amendments Tally</th>
+        <th>Amendments points</th>
+        <th>FPS Tally</th>
+        <th>FPS points</th>
+        <th>Total Speeches</th>
+        <th>Total points</th>
+        <th>Average</th>
+        <th>Score</th>
+
+    </tr>
+
+    <tr ng-repeat="item in points | filter:search">
+        <td>{{item.country}}</td>
+        <td>{{item.rtorTally}}</td>
+        <td>{{item.rtor}}</td>
+        <td>{{item.poiTally}}</td>
+        <td>{{item.poi}}</td>
+        <td>{{item.speakerTally}}</td>
+        <td>{{item.speaker}}</td>
+        <td>{{item.stateTally}}</td>
+        <td>{{item.state}}</td>
+        <td>{{item.modTally}}</td>
+        <td>{{item.modc}}</td>
+        <td>{{item.modSpeechTally}}</td>
+        <td>{{item.modSpeech}}</td>
+        <td>{{item.resoSpeechTally}}</td>
+        <td>{{item.resoSpeech}}</td>
+        <td>{{item.ammendmentsTally}}</td>
+        <td>{{item.ammendments}}</td>
+        <td>{{item.fps}}</td>
+        <td>{{item.fpsTally}}</td>
+        <td>{{item.totalTally}}</td>
+        <td>{{item.total}}</td>
+        <td>{{item.average}}</td>
+        <td>{{item.score}}</td>
+
+
+</table>
+
+</body>
+
+</html>

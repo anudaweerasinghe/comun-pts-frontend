@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head style="background: #e6e6e1">
+    <meta charset="UTF-8">
+    <title>Points System|COMUN XXV</title>
+
+
+    <h1 style="font-family: NexaRegular">COMUN XXV POINTS SYSTEM</h1>
+    <h2 style="font-family: Nexa-Light; text-align: center">{{title}}</h2>
+    <script src="assets/js/angucomplete-alt.min.js"></script>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+
+        <form name="myForm"  class="form-horizontal" >
+
+            <br>
+
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-sm-2" for="Country"><h4>Country:</h4></label>
+                        <div class="col-sm-10" angucomplete-alt id="ex1"
+                             placeholder="Select Country"
+                             maxlength="100"
+                             pause="100"
+                             selected-object="selectedCountry"
+                             local-data="flags"
+                             search-fields="name"
+                             title-field="name"
+                             minlength="1"
+                             input-class="form-control form-control-small"
+                             match-class="highlight" style="font-family: Nexa-Bold;width: 500px"></div>
+
+                    </div>
+                </div>
+                <button  style="background-color:teal; color: white; width: 150px; font-size: 15pt; font-family: Abel;" ng-click="getTally(selectedCountry.originalObject.code)">Get Tally</button>
+
+                <br>
+                <br>
+
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-sm-2" for="Type"><h4>Type:</h4></label>
+                        <div class="col-sm-10" angucomplete-alt id="ex2"
+                             placeholder="Type of speech"
+                             maxlength="100"
+                             pause="100"
+                             ng-model="typ"
+                             name="typ"
+                             selected-object="selectedType"
+                             local-data="type"
+                             search-fields="type"
+                             title-field="type"
+                             minlength="1"
+                             input-class="form-control form-control-small"
+                             match-class="highlight" style="; font-family: Nexa-Bold;width: 500px"></div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-sm-2" for="Points"><h4>Points:</h4></label>
+                        <input style="width: 100px" type="number" min="0" ng-model ="pts" name = "pts"max={{selectedType.originalObject.points}}>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div style="padding-left: 86%"class="row">
+                        <button ng-disabled="myForm.$invalid" style="background-color: #040505; color: white; width: 80px; font-size: 15pt; font-family: Abel;" ng-click="submit()">Submit</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div style="text-align: center">
+                    <img class="img-rounded img-responsive" style="max-height: 80%"
+                         src="assets/Flags_DB/{{selectedCountry.originalObject.code}}">
+
+                </div>
+            </div>
+
+
+        </form>
+
+
+    </div>
+</div>
+<h1 style="color: red; font-size: 36pt" ng-hide="{{tallyHide}}">Speech Tally - {{tally}}</h1>
+<center>
+    <h4>Speaker's List - 10 Points</h4>
+    <h4>Right to Reply - 10 Points</h4>
+    <h4>Point of Information - 5 Points</h4>
+    <h4>Statement - 5 Points</h4>
+    <h4>Mod Caucus Topic - 10 Points</h4>
+    <h4>Mod Caucus Speech - 10 Points</h4>
+    <h4>Resolution Speech - 15 Points</h4>
+    <h4>Amendments - 5 Points</h4>
+    <h4>Foreign Policy Statement - 15 Points</h4>
+</center>
+</body>
+
+<div align="right">
+    <button style="font-size: large;" ng-click="logout()">Logout</button>
+</div>
+
+
+<!-- Latest compiled and minified CSS -->
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</html>
