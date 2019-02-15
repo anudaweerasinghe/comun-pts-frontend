@@ -1231,7 +1231,7 @@ pointsApp.controller('pointsController', function countryListController($scope, 
                 },
                 {
                     name: 'ALPHABET',
-                    code: 'alphabet.jpg'
+                    code: 'ALPHABET.jpg'
                 },
                 {
                     name: 'RUSSIA',
