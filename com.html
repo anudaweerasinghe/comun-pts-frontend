@@ -15,6 +15,7 @@
 
 </head>
 <body>
+
 <div class="container">
     <div class="row">
 
@@ -37,11 +38,12 @@
                              title-field="name"
                              minlength="1"
                              input-class="form-control form-control-small"
-                             match-class="highlight" style="font-family: Nexa-Bold;width: 500px"></div>
+                             match-class="highlight" style="font-family: Nexa-Bold;width: 500px">
+
+                        </div>
 
                     </div>
                 </div>
-                <button  style="background-color:teal; color: white; width: 150px; font-size: 15pt; font-family: Abel;" ng-click="getTally(selectedCountry.originalObject.code)">Get Tally</button>
 
                 <br>
                 <br>
@@ -97,7 +99,44 @@
 
     </div>
 </div>
-<h1 style="color: red; font-size: 36pt" ng-hide="{{tallyHide}}">Speech Tally - {{tally}}</h1>
+<div>
+    <table ng-hide="table">
+        <p style="font-size: 13pt">Search by Country:</p>
+        <input style="font-size: large" type="text" ng-model="search.country">
+        <tr>
+            <th>Country</th>
+            <th>R2R Tally</th>
+
+            <th>POI Tally</th>
+
+            <th>Speaker's List Tally</th>
+            <th>Statement Tally</th>
+            <th>Mod Caucus Tally</th>
+            <th>Mod Caucus Speech Tally</th>
+            <th>Reso Speech Tally</th>
+            <th>Amendments Tally</th>
+            <th>FPS Tally</th>
+            <th>Total Speeches</th>
+
+        </tr>
+
+        <tr ng-repeat="item in points | filter:search">
+            <td>{{item.country}}</td>
+            <td>{{item.rtorTally}}</td>
+            <td>{{item.poiTally}}</td>
+            <td>{{item.speakerTally}}</td>
+            <td>{{item.stateTally}}</td>
+            <td>{{item.modTally}}</td>
+            <td>{{item.modSpeechTally}}</td>
+            <td>{{item.resoSpeechTally}}</td>
+            <td>{{item.ammendmentsTally}}</td>
+            <td>{{item.fpsTally}}</td>
+            <td>{{item.totalTally}}</td>
+
+
+
+    </table>
+</div>
 <center>
     <h4>Speaker's List - 10 Points</h4>
     <h4>Right to Reply - 10 Points</h4>

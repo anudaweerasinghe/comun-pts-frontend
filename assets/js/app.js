@@ -265,7 +265,7 @@ pointsApp.controller('adminController', function ($scope, $http, $state, $cookie
 
 });
 
-pointsApp.controller('pointsController', function countryListController($scope, $http, $cookies, $state) {
+pointsApp.controller('pointsController', function countryListController($scope, $http, $cookies, $state, $interval) {
 
     $scope.reg = /^[0-9]\\d*$/;
 
@@ -273,6 +273,24 @@ pointsApp.controller('pointsController', function countryListController($scope, 
     var com = $cookies.get("com");
     $scope.title = "";
     console.log(com);
+    $scope.callAtInterval = function () {
+
+
+        $http({
+            method: 'POST',
+            url: 'http://anuda.me:8080/pointsback/pointsapi/get-points?com='+com
+        }).then(function successCallback(response) {
+
+            $scope.points = response.data;
+            $scope.table = false;
+
+
+        }, function errorCallback(response) {
+            // The next bit of code is asynchronously tricky.
+            alert("Failed to retrieve points data. Please try again");
+
+        });
+    };
 
 
     switch (com) {
@@ -764,6 +782,10 @@ pointsApp.controller('pointsController', function countryListController($scope, 
                 {
                     name: 'JORDAN',
                     code: 'JORDAN.GIF'
+                },
+                {
+                    name: 'JAPAN',
+                    code: 'JAPAN.GIF'
                 }
             ];
             break;
@@ -1335,6 +1357,7 @@ pointsApp.controller('pointsController', function countryListController($scope, 
                     code: 'IRAQ.GIF'
                 }
             ];
+
             break;
     }
 
@@ -1371,6 +1394,7 @@ pointsApp.controller('pointsController', function countryListController($scope, 
     ];
 
     $scope.submit = function () {
+        $scope.points=null;
         $http({
             method: 'POST',
             url: 'http://anuda.me:8080/pointsback/pointsapi/add-points',
@@ -1384,15 +1408,15 @@ pointsApp.controller('pointsController', function countryListController($scope, 
             alert("Databases successfully updated")
             $scope.tally=null;
             $scope.loginForm.$setPristine();
-
-
-
         }, function errorCallback(response) {
             // The next bit of code is asynchronously tricky.
             alert("Submission Failure.The service ran into an error. Please try again later.")
 
         });
+
     }
+
+    $interval( function(){ $scope.callAtInterval(); }, 1000);
 
     $scope.logout = function () {
 
