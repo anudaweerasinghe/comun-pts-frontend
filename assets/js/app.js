@@ -814,7 +814,7 @@ pointsApp.controller('pointsController', function countryListController($scope, 
                 },
                 {
                     name: 'KIRGHIZ SSR',
-                    code: 'KIRGHIS.GIF'
+                    code: 'KIRGHIS.PNG'
                 },
                 {
                     name: 'VENEZUELA',
@@ -1217,7 +1217,7 @@ pointsApp.controller('pointsController', function countryListController($scope, 
                 },
                 {
                     name: 'EXXON MOBIL',
-                    code: 'EXXO_MOBIL.JPG'
+                    code: 'EXXON_MOBIL.JPG'
                 },
                 {
                     name: 'OECD',
